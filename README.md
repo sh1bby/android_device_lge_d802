@@ -1,1 +1,1 @@
-# android_device_lge_d802
+This is LG G2 D802's device tree for DU (Dirty Unicorns).
