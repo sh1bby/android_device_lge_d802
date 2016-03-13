@@ -1,1 +1,1 @@
-This is LG G2 D802's device tree for DU (Dirty Unicorns)
+LG G2 D802 - Device tree for Dirty Unicorns
