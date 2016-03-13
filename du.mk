@@ -4,6 +4,9 @@ $(call inherit-product, vendor/du/config/common_full_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/du/config/nfc_enhanced.mk)
 
+# Inherit telephony stuff from the common Open Source product configuration
+$(call inherit-product, build/target/product/aosp_base_telephony.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/lge/d802/device.mk)
 
