@@ -1,6 +1,32 @@
 [
  {
-   "repository": "android_device_lge_g2-common",
-   "target_path": "device/lge/g2-common"
- }
+   "remote": "github",
+   "repository": "CyanogenMod/android_device_lge_g2-common",
+   "target_path": "device/lge/g2-common",
+   "branch":      "cm-13.0"
+ },
+ {
+  "remote": "github",
+  "repository": "TheMuppets/proprietary_vendor_lge",
+  "target_path": "vendor/lge",
+  "branch":      "cm-13.0"
+ },
+ {
+   "remote": "github",
+   "repository": "GalaticStryder/kernel_lge_msm8974",
+   "target_path": "kernel/lge/msm8974",
+   "branch":      "esfinge"
+ },
+ {
+   "remote": "github",
+   "repository": "CyanogenMod/android_external_sony_boringssl-compat",
+   "target_path": "external/sony/boringssl-compat",
+   "branch":      "cm-13.0"
+ },
+  {
+    "remote": "github",
+    "repository": "CyanogenMod/android_packages_apps_Snap",
+    "target_path": "packages/apps/Snap",
+    "branch": "cm-13.0"
+  }
 ]

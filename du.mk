@@ -8,7 +8,7 @@ $(call inherit-product, vendor/du/config/nfc_enhanced.mk)
 $(call inherit-product, build/target/product/aosp_base_telephony.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/d802/device.mk)
+$(call inherit-product, device/lge/d802/d802.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := d802
